@@ -122,7 +122,7 @@ def main():
     }
     
     # Manas Rajendran
-    algoConfig = input("What algorithim configuration would you like? Please enter an integer: ")
+    algoConfig = input("What algorithm configuration would you like? Please enter an integer: ")
 
     if algoConfig == "elitism crossover" or algoConfig == "roulette crossover":
         mutationtype = input("Please enter the mutation configuration you would like to execute: ")
