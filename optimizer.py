@@ -170,7 +170,7 @@ class Optimizer():
 
         mutationNumber = random.randint(0, (len(list(self.nn_param_choices.keys()))))
 
-        for x in mutationNumber:
+        for x in range(mutationNumber):
             mutation = random.choice(list(self.nn_param_choices.keys()))
 
             network.network[mutation] = random.choice(self.nn_param_choices)
